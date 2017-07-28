@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/weatherLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Weather in Cape Town ZA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        local:MvxBind="Text 'Weather in ' +Climate.name" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sunIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="⛈"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="23.5 ℃"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            local:MvxBind="Text Climate.main.temp + '℃'" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear sky"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:text="get at 15/05/2017 13:29"
+        local:MvxBind="Text 'get at '+ Climate.dt" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/border"
+        android:shrinkColumns="*">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0.5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="0.5"
+                android:background="@color/grey"
+                android:padding="4dp"
+                android:text="Wind" />
+            <TextView
+                android:id="@+id/wind"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="@color/grey"
+                android:padding="4dp"
+                android:text="Fresh breeze at 10 km/hour south-east (122.001)"
+                local:MvxBind="Text Climate.wind.speed + ' at ' + Climate.wind.deg + '°' " />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0.5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:text="Cloudiness" />
+            <TextView
+                android:id="@+id/clouds"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:text="Sky is clear"
+                local:MvxBind="Text Climate.clouds.all" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0.5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="0.5"
+                android:background="@color/grey"
+                android:padding="4dp"
+                android:text="Pressure" />
+            <TextView
+                android:id="@+id/pressure"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="@color/grey"
+                android:padding="4dp"
+                android:text="1022.03 hpa"
+                local:MvxBind="Text Climate.main.pressure + ' hpa'" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0.5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:text="Humidity" />
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:text="74 %"
+                local:MvxBind="Text Climate.main.humidity + '%'" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0.5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="0.5"
+                android:background="@color/grey"
+                android:padding="4dp"
+                android:text="Sunrise" />
+            <TextView
+                android:id="@+id/sunrise"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="@color/grey"
+                android:padding="4dp"
+                android:text="06:26"
+                local:MvxBind="Text Climate.sys.sunrise" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0.5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:text="Sunset" />
+            <TextView
+                android:id="@+id/sunset"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:text="19:32"
+                local:MvxBind="Text Climate.sys.sunset" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0.5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="0.5"
+                android:background="@color/grey"
+                android:padding="4dp"
+                android:text="Geo coords" />
+            <TextView
+                android:id="@+id/coordinates"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background="@color/grey"
+                android:padding="4dp"
+                android:text="[-33.93,18.42]"
+                android:textColor="@color/colorPrimaryDark"
+                local:MvxBind="Text '[' + Weather.coord.lat + ', ' + Weather.coord.lon + ']" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmWeather2.Core.dll
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmWeather2.Core.pdb
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmCross.Binding.dll
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmCross.Core.dll
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmCross.Localization.dll
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmCross.Platform.dll
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmCross.Platform.pdb
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmCross.Core.pdb
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmCross.Binding.pdb
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/bin/Debug/MvvmCross.Localization.pdb
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/obj/Debug/MvvmWeather2.Core.csproj.CoreCompileInputs.cache
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/obj/Debug/MvvmWeather2.Core.dll
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/obj/Debug/MvvmWeather2.Core.pdb
+/Users/lindanimasinga/gitRepos/Xamarin/MvvmWeather2/MvvmWeather2.Core/obj/Debug/MvvmWeather2.Core.csprojResolveAssemblyReference.cache

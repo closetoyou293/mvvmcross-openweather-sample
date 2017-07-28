@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{2F751AB9-5B2F-4F2B-B883-C60848E676DD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmWeather2 Status">
+    <Files>
+      <File FileName="MvvmWeather2.iOS/Views/WeatherDetailsView.cs" Line="22" Column="33" />
+      <File FileName="MvvmWeather2.iOS/Views/WeatherDetailsView.designer.cs" Line="1" Column="1" />
+      <File FileName="MvvmWeather2.iOS/Views/WeatherDetailsView.xib" />
+      <File FileName="MvvmWeather2.iOS/Views/MainView.xib" />
+      <File FileName="MvvmWeather2.Core/ViewModels/WeatherDetailsViewModel.cs" Line="17" Column="31" />
+      <File FileName="MvvmWeather2 Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MvvmWeather2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.cdf7ee99059cf49457d6dcf82aa7c1aa63d9d90d" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MvvmWeather2.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="AppTheme" />
+</Properties>

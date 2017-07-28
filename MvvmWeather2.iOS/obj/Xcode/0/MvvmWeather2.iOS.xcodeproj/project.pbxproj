@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6DEC36F0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E00DCAB0000000000000000 /* UIKit.framework */; };
+		34D6A13D0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF8BA790000000000000000 /* MapKit.framework */; };
+		6BD290240000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F4A9600000000000000000 /* Foundation.framework */; };
+		A2CE7F0B0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F098470000000000000000 /* CoreGraphics.framework */; };
+		B3946B8A0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AB684C60000000000000000 /* Entitlements.plist */; };
+		B17F90910000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38A1A9CD0000000000000000 /* Info.plist */; };
+		3BFFD34F0000000000000000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C321EC8B0000000000000000 /* LaunchScreen.xib */; };
+		C680160D0000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA22F490000000000000000 /* Main.storyboard */; };
+		D0985F500000000000000000 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942B9F310000000000000000 /* MainView.xib */; };
+		8DFD00300000000000000000 /* WeatherDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9001E93F0000000000000000 /* WeatherDetailsView.xib */; };
+		ADD39CB80000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F5B5F40000000000000000 /* Assets.xcassets */; };
+		FED778AA0000000000000000 /* WeatherDetailsView.h in Sources */ = {isa = PBXBuildFile; fileRef = 85F991E60000000000000000 /* WeatherDetailsView.h */; };
+		9AFA17620000000000000000 /* WeatherDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221C309E0000000000000000 /* WeatherDetailsView.m */; };
+		F1DC94BB0000000000000000 /* MainView.h in Sources */ = {isa = PBXBuildFile; fileRef = 78FEADF70000000000000000 /* MainView.h */; };
+		8DFF33730000000000000000 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15214CAF0000000000000000 /* MainView.m */; };
+		2F94D6A60000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = B6B6EFE20000000000000000 /* AppDelegate.h */; };
+		19C8C4BA0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EADDF60000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E1BC3E60000000000000000 /* MvvmWeather2.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MvvmWeather2.iOS.app"; path = "MvvmWeather2.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E00DCAB0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		BBF8BA790000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		F2F4A9600000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		29F098470000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3AB684C60000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		38A1A9CD0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		C321EC8B0000000000000000 /* LaunchScreen.xib */ = {isa = PBXFileReference; name = "LaunchScreen.xib"; path = "LaunchScreen.xib"; sourceTree = "<group>"; };
+		4DA22F490000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		942B9F310000000000000000 /* MainView.xib */ = {isa = PBXFileReference; name = "MainView.xib"; path = "Views/MainView.xib"; sourceTree = "<group>"; };
+		9001E93F0000000000000000 /* WeatherDetailsView.xib */ = {isa = PBXFileReference; name = "WeatherDetailsView.xib"; path = "Views/WeatherDetailsView.xib"; sourceTree = "<group>"; };
+		34F5B5F40000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		85F991E60000000000000000 /* WeatherDetailsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WeatherDetailsView.h"; path = "WeatherDetailsView.h"; sourceTree = "<group>"; };
+		221C309E0000000000000000 /* WeatherDetailsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WeatherDetailsView.m"; path = "WeatherDetailsView.m"; sourceTree = "<group>"; };
+		78FEADF70000000000000000 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainView.h"; path = "MainView.h"; sourceTree = "<group>"; };
+		15214CAF0000000000000000 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainView.m"; path = "MainView.m"; sourceTree = "<group>"; };
+		B6B6EFE20000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		A0EADDF60000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAFD36470000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DEC36F0000000000000000 /* UIKit.framework in Frameworks */,
+				34D6A13D0000000000000000 /* MapKit.framework in Frameworks */,
+				6BD290240000000000000000 /* Foundation.framework in Frameworks */,
+				A2CE7F0B0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		307CF3890000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				8CD2755D0000000000000000 /* MvvmWeather2.iOS */,
+				89744BDB0000000000000000 /* Frameworks */,
+				5EA7B4730000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA7B4730000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1BC3E60000000000000000 /* MvvmWeather2.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		89744BDB0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E00DCAB0000000000000000 /* UIKit.framework */,
+				BBF8BA790000000000000000 /* MapKit.framework */,
+				F2F4A9600000000000000000 /* Foundation.framework */,
+				29F098470000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		8CD2755D0000000000000000 /* MvvmWeather2.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6B6EFE20000000000000000 /* AppDelegate.h */,
+				34F5B5F40000000000000000 /* Assets.xcassets */,
+				3AB684C60000000000000000 /* Entitlements.plist */,
+				38A1A9CD0000000000000000 /* Info.plist */,
+				C321EC8B0000000000000000 /* LaunchScreen.xib */,
+				4DA22F490000000000000000 /* Main.storyboard */,
+				78FEADF70000000000000000 /* MainView.h */,
+				85F991E60000000000000000 /* WeatherDetailsView.h */,
+				235A22C00000000000000000 /* Supporting Files */,
+				90CD75AF0000000000000000 /* Views */,
+			);
+			name = "MvvmWeather2.iOS";
+			sourceTree = "<group>";
+		};
+		90CD75AF0000000000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				942B9F310000000000000000 /* MainView.xib */,
+				9001E93F0000000000000000 /* WeatherDetailsView.xib */,
+			);
+			name = "Views";
+			sourceTree = "<group>";
+		};
+		235A22C00000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0EADDF60000000000000000 /* AppDelegate.m */,
+				15214CAF0000000000000000 /* MainView.m */,
+				221C309E0000000000000000 /* WeatherDetailsView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BFA30260000000000000000 /* MvvmWeather2.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B578320000000000000000 /* Build configuration list for PBXNativeTarget "MvvmWeather2.iOS" */;
+			buildPhases = (
+				1752B81B0000000000000000 /* Sources */,
+				BAFD36470000000000000000 /* Frameworks */,
+				2596EA930000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MvvmWeather2.iOS";
+			productName = "MvvmWeather2.iOS";
+			productReference = 8E1BC3E60000000000000000 /* MvvmWeather2.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85C6AC10000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9FBE1FE00000000000000000 /* Build configuration list for PBXProject "MvvmWeather2.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 307CF3890000000000000000;
+			productRefGroup = 5EA7B4730000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BFA30260000000000000000 /* MvvmWeather2.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2596EA930000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3946B8A0000000000000000 /* Entitlements.plist in Resources */,
+				B17F90910000000000000000 /* Info.plist in Resources */,
+				3BFFD34F0000000000000000 /* LaunchScreen.xib in Resources */,
+				C680160D0000000000000000 /* Main.storyboard in Resources */,
+				D0985F500000000000000000 /* MainView.xib in Resources */,
+				8DFD00300000000000000000 /* WeatherDetailsView.xib in Resources */,
+				ADD39CB80000000000000000 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1752B81B0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED778AA0000000000000000 /* WeatherDetailsView.h in Sources */,
+				9AFA17620000000000000000 /* WeatherDetailsView.m in Sources */,
+				F1DC94BB0000000000000000 /* MainView.h in Sources */,
+				8DFF33730000000000000000 /* MainView.m in Sources */,
+				2F94D6A60000000000000000 /* AppDelegate.h in Sources */,
+				19C8C4BA0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F188780000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		CDE8E0CA0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "MvvmWeather2.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FBE1FE00000000000000000 /* Build configuration list for PBXProject "MvvmWeather2.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F188780000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		F8B578320000000000000000 /* Build configuration list for PBXNativeTarget "MvvmWeather2.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE8E0CA0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85C6AC10000000000000000 /* Project object */;
+}

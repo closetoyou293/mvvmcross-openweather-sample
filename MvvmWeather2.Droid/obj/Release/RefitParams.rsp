@@ -1,0 +1,9 @@
+DebugTrace.cs
+LinkerPleaseInclude.cs
+Setup.cs
+Properties/AssemblyInfo.cs
+Resources/Resource.Designer.cs
+Views/MainView.cs
+Views/WeatherDetailsView.cs
+Rest/IWeatherApi.cs
+Views/Converters/ViewVisibilityConverter.cs

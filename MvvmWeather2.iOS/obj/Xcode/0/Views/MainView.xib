@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainView">
+            <connections>
+                <outlet property="CityName" destination="AWT-o8-9vc" id="name-outlet-AWT-o8-9vc"/>
+                <outlet property="GetWeatherButton" destination="Sip-gr-G7F" id="name-outlet-Sip-gr-G7F"/>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Sw0-ik-gQn">
+                    <rect key="frame" x="10" y="50" width="394" height="100.33333333333334"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beg-Sx-eFe">
+                            <rect key="frame" x="0.0" y="0.0" width="30.333333333333336" height="20.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AWT-o8-9vc">
+                            <rect key="frame" x="0.0" y="30.333333333333329" width="384" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sip-gr-G7F">
+                            <rect key="frame" x="0.0" y="70.333333333333343" width="87" height="30.000000000000014"/>
+                            <color key="backgroundColor" red="0.93725490196078431" green="0.5607843137254902" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <size key="titleShadowOffset" width="6" height="6"/>
+                            <state key="normal" title="Get Weather">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="AWT-o8-9vc" secondAttribute="trailing" constant="10" id="aZy-nV-j7U"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Sw0-ik-gQn" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="10" id="dhV-sQ-Z6L"/>
+                <constraint firstItem="Sw0-ik-gQn" firstAttribute="top" secondItem="2" secondAttribute="top" constant="50" id="haH-mr-4b6"/>
+                <constraint firstAttribute="trailing" secondItem="Sw0-ik-gQn" secondAttribute="trailing" constant="10" id="rJY-T6-AIa"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

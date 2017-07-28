@@ -1,0 +1,12 @@
+DebugTrace.cs
+LinkerPleaseInclude.cs
+Setup.cs
+AppDelegate.cs
+Main.cs
+Properties/AssemblyInfo.cs
+Views/MainView.cs
+Views/MainView.designer.cs
+Rest/IWeatherApi.cs
+Views/WeatherDetailsView.cs
+Views/WeatherDetailsView.designer.cs
+/var/folders/cc/fx0clzbd2bd5ctvtp0768khh0000gp/T/Xamarin.iOS,Version=v1.0.AssemblyAttributes.cs
